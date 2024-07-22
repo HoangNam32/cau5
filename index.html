@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bán Hàng</title>
+    <style>
+        /* Đặt các thuộc tính cơ bản */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Bán Hàng</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Sản Phẩm</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Sản Phẩm Nổi Bật</h2>
+            <div class="product">
+                <img src="Nitro_Wallpaper_01_3840x2400.jpg" alt="Sản phẩm 1">
+                <h3>Sản phẩm 1</h3>
+                <p>Giá: 100.000 VND</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product">
+                <img src="Nitro_Wallpaper_01_3840x2400.jpg" alt="Sản phẩm 2">
+                <h3>Sản phẩm 2</h3>
+                <p>Giá: 200.000 VND</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product">
+                <img src="Nitro_Wallpaper_01_3840x2400.jpg" alt="Sản phẩm 2">
+                <h3>Sản phẩm 3</h3>
+                <p>Giá: 300.000 VND</p>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product">
+                <img src="Nitro_Wallpaper_01_3840x2400.jpg" alt="Sản phẩm 2">
+                <h3>Sản phẩm 4</h3>
+                <p>Giá: 400.000 VND</p>
+                <button>Thêm vào giỏ hàng</button>   
+            </div>
+            <!-- Thêm sản phẩm tương tự -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Web Bán Hàng. All rights reserved.</p>
+    </footer>
+</body>
+</html>
